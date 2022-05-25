@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Akshar', sans-serif;
+}
+header{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(230, 230, 230);
+}
+.ulone{
+    list-style-type: none;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+a{
+    font-style:italic;
+    font-size: xx-large;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(230, 71, 50);
+}
+a:hover{
+    color: rgb(0, 0, 0);
+    transition: 1s;
+}
+h1{
+    margin-top: 50px;
+    text-align: center;
+}
+.container{
+    position: relative;
+}
+.one{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    transition: 1.5s;
+}
+.one:hover{
+    width: 100%;
+    height: 650px;
+    transition: 1.5s;
+}
+.in-text{
+    position: absolute;
+    top: 20%;
+    left: 42%;
+    font-weight: bolder;
+    font-size: 100px;
+    font-family: 'Comic Neue', cursive;
+    background-color: red;
+    color: white;
+}
+.d{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.te{
+    position: absolute;
+    top: 45%;
+    left: 35%;
+}
+table{
+    margin-top: 50px;
+}
+tr,th{
+    font-size: larger;
+}
+.sec{
+    border-radius: 5%;
+    padding-right: 15rem;
+    padding-top: 1rem;
+    object-fit: cover;
+}
+h2{
+    margin-left: 200px;
+    margin-top: 10px;
+    text-decoration: underline;
+    font-size: 2rem;
+}
+.third{
+    border-radius: 5%;
+    height: 300px;
+    width: 40rem;
+}
+footer{
+    margin-top: 15px;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(175, 175, 175);
+}
+#foot{
+    padding-top: 2rem;
+    padding-left: 25rem;
+    color: red;
+}
+#foot:hover{
+    text-decoration: underline;
+}
+.ultwo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 2rem;
+    list-style-type: none;
+}
